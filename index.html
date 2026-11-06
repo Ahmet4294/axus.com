@@ -1,0 +1,629 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AXUS kişisel geliştirici portföyü; Seçilmiş projeler, beceriler ve iletişim." />
+    <meta name="theme-color" content="#09090f" />
+    <title>Ana Sayfa | AXUS Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="Axus Ana Sayfa">
+          <span class="brand-mark">A</span>
+          <span>AXUS.</span>
+        </a>
+        <nav class="nav-links" aria-label="Ana Navigasyon">
+          <a href="#home">Ana Sayfa</a>
+          <a href="#project">Projeler</a>
+          <a href="#about">Hakkımda</a>
+          <a href="#services">Hizmetler</a>
+          <a href="#contact">İletişim</a>
+        </nav>
+        <a href="#contact" class="btn btn-secondary header-btn">
+          Birlikte Çalışalım<span><i class="fa-solid fa-arrow-right-long right-icon"></i></span>
+        </a>
+
+        <button class="menu-toggle" onclick="menuToggle()" aria-label="Menü Aç" aria-expanded="false">
+          <span class="bars bar1"></span>
+          <span class="bars bar2"></span>
+          <span class="bars bar3"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="content" id="home">
+        <section class="container hero">
+          <div>
+            <span class="eyebrow">merhaba, ben geliştirici</span> 
+            <h1>Dijital fikirleri<br>
+              <span class="gradient-text">
+                Gerçeğe 
+              </span> dönüştürüyorum.</h1>
+            <p class="lead">Kullanıcı deneyimini, işlevsel kodu ve güçlü görsel dili bir araya getiren modern web deneyimleri tasarlıyorum.</p>
+            <div class="hero-actions">
+              <a href="#project" class="btn btn-primary">
+                Projelerimi Keşfet<span><i class="fa-solid fa-arrow-right-long right-icon"></i></span>
+              </a>
+              <a href="#" class="btn btn-secondary">İletişime Geç</a>
+            </div>
+            <div class="availability">
+              <span class="dot"></span> Yeni projeler için iletişime açığım
+            </div>
+          </div>
+          <div class="hero-art" aria-label="Kod temalı dekoratif illüstrasyon">
+            <div class="orbit"></div>
+            <div class="float-chip chip-one">✦ Creative Developer</div>
+            <div class="float-chip chip-two">{ "clean code": true }</div>
+            <div class="hero-card">
+              <div class="card-top">
+                <span>~/axus/index.html</span>
+                <span>● ● ●</span>
+              </div>
+              <div class="code-lines">
+                <div class="code-line">
+                  <span class="line-no">01</span>
+                  <span>
+                    <span class="code-purple">const</span> developer = {
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">02</span>
+                  <span>&nbsp; name:
+                    <span class="code-green">'Your Name'</span>,
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">03</span>
+                  <span>&nbsp; focus:
+                    <span class="code-green">'Web experiences'</span>,
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">04</span>
+                  <span>&nbsp; skills: [
+                    <span class="code-orange">'HTML'</span>,
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">04</span>
+                  <span>&nbsp;
+                    <span class="code-orange">'CSS'</span>,
+                    <span class="code-orange">'JavaScript'</span> ],
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">06</span>
+                  <span>&nbsp; build:
+                    <span class="code-purple">() =&gt;</span>
+                    <span class="code-green">'something great'</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-no">07</span><span>};</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container section-sm">
+          <div class="stats">
+            <div class="stat">
+              <strong>06<span class="gradient-text">+</span></strong>
+              <span>Örnek Proje</span>
+            </div>
+            <div class="stat">
+              <strong>03</strong>
+              <span>Ana Teknoloji</span>
+            </div>
+            <div class="stat">
+              <strong>100<span class="gradient-text">%</span></strong>
+              <span>Responsive Yaklaşım</span>
+            </div>
+            <div class="stat">
+              <strong>∞</strong>
+              <span>Öğrenme Merakı</span>
+            </div>
+          </div>
+        </section>
+        <section class="container section">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">seçilmiş çalışmalar</span>
+              <h2>Fikirden Ürüne.</h2>
+            </div>
+            <p>Farklı ihtiyaçlar için geliştirilen arayüz konseptler. Her proje, kullanılabilirlik ve detaylara özen odağında.</p>
+          </div>
+          <div class="grid-3">
+            <article class="panel panels" data-category="web javascript">
+              <div class="project-visual">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block"></div>
+                      <div class="mocka-block"></div>
+                      <div class="mocka-block"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>01 / web app</span><span>2026</span>
+                </div>
+                <h3>FocusFlow</h3>
+                <p>Odaklanma oturumlarınıı, görevleri ve günlük üretkenliği takip eden sade bir çalışma paneli.</p>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">javascript</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+            <article class="panel panels" data-category="web design">
+              <div class="project-visual visual-blue">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block"></div>
+                      <div class="mocka-block"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>02 / dashboard</span><span>2026</span>
+                </div>
+                <h3>Orbit Analytics</h3>
+                <p>Karmaşık metrikleri anlaşılır kartlar ve görsel hiyerarşiyle sunan analitik dashboard konseptir.</p>
+                <div class="tags">
+                  <span class="tag">Uİ Design</span>
+                  <span class="tag">Responsive</span>
+                  <span class="tag">CSS Grid</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+            <article class="panel panels" data-category="javascript">
+              <div class="project-visual visual-green">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block"></div>
+                      <div class="mocka-block"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>03 / producivity</span><span>2026</span>
+                </div>
+                <h3>Taskly</h3>
+                <p>Görevleri kategori ve önceliğe göre düzenleyen, hızlı etkileşimlere odaklanan görev yönetici.</p>
+                <div class="tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">LocalStorage</span>
+                  <span class="tag">DOM</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+          </div>
+          <article style="margin-top: 20px;">
+            <a href="#" class="btn btn-secondary">
+              Tüm Projeleri Gör
+            </a>
+          </article>
+        </section>
+        <section class="container section-sm">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">araç kutum</span>
+              <h2>Kullandığım Teknolojiler.</h2>
+            </div>
+          </div>
+          <div class="skills">
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Responsive Design</span>
+            <span class="skill">Flexbox & Grid</span>
+            <span class="skill">DOM Manipulation</span>
+            <span class="skill">Git & GitHub</span>
+            <span class="skill">Uİ Principles</span>
+          </div>
+        </section>
+        <section class="container section-sm">
+          <div class="cta-band">
+            <div>
+              <span class="eyebrow">bir fikrin mi var?</span>
+              <h2>Birlikte iyi bir şey üretelim.</h2>
+              <p>Yeni bir web projesi, arayüz iyileştirmesi veya yaratıcı bir iş için konuşmaya hazırım.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Proje Hakkında Konuşalım <i class="fa-solid fa-arrow-right-long right-icon"></i></a>
+          </div>
+        </section>
+      </div>
+      <div class="content" id="project">
+        <section class="container page-hero">
+          <div class="bread-crumb">ANA SAYFA / PROJELER</div>
+          <span class="eyebrow">seçilmiş çalışmalar</span>
+          <h1>Üzerinde çalıştığım<br/><span class="gradient-text">fikirler</span></h1>
+          <p class="lead">Arayüz tasarımı, web geliştirme ve küçük dijital araçlardan oluşan bir seçki. Kartları kategoriye göre filtreleyebilirsin.</p>
+        </section>
+        <section class="container section-sm">
+          <div class="filter-row" role="group" aria-label="Projeleri filtrele">
+            <button class="filter-btn active" data-filter="all">Tüm Projeler</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="design">Tasarım</button>
+          </div>
+          <div class="grid-3">
+            <article class="panel panels"></article>
+            <article class="panel panels"></article>
+            <article class="panel panels"></article>
+            <article class="panel" data-category="web design">
+              <div class="project-visual visual-orange">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title" style="background: #f3b98b;"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block" style="background: #f3b98b1c;"></div>
+                      <div class="mocka-block" style="background: #f3b98b1c;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>04 / e-commerce</span><span>2026</span>
+                </div>
+                <h3>Forma Studio</h3>
+                <p>Ürünleri ön plana çıkaran, ferah ürün detayları ve mobil öncelikli alışveriş deneyimi.</p>
+                <div class="tags">
+                  <span class="tag">Uİ Design</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+            <article class="panel" data-category="javascript web">
+              <div class="project-visual visual-green">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title" style="background: #9be9d5;"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block" style="background: #9be9d51c;"></div>
+                      <div class="mocka-block" style="background: #9be9d51c;"></div>
+                      <div class="mocka-block" style="background: #9be9d51c;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>05 / tool</span><span>2026</span>
+                </div>
+                <h3>DevKit</h3>
+                <p>Geliştiriciler için küçük yardımcı araçları tek arayüzde bir araya getiren araç kutusu.</p>
+                <div class="tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Utilities</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+            <article class="panel" data-category="design">
+              <div class="project-visual">
+                <div class="mocka-window">
+                  <div class="mocka-bar">
+                    <i></i><i></i><i></i>
+                  </div>
+                  <div class="mocka-content">
+                    <div class="mocka-title"></div>
+                    <div class="mocka-row">
+                      <div class="mocka-block" style="background: #8b5cf622;"></div>
+                      <div class="mocka-block" style="background: #8b5cf622;"></div>
+                      <div class="mocka-block" style="background: #8b5cf622;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span>06 / brand system</span><span>2026</span>
+                </div>
+                <h3>Mono Objects</h3>
+                <p>Minimal bir dijital marka için tipografi, renk sistemi ve web arayüzü konsepti..</p>
+                <div class="tags">
+                  <span class="tag">Design System</span>
+                  <span class="tag">Typography</span>
+                  <span class="tag">Uİ</span>
+                </div>
+                <p><a href="#" class="text-link">Proje Detayları <i class="fa-solid fa-arrow-right-long right-icon"></i></a></p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="container section-sm">
+          <div class="cta-band">
+            <div>
+              <span class="eyebrow">bir sonraki proje</span>
+              <h2>Senin fikrin olabilir.</h2>
+              <p>Birlikte Çözüm geliştirmek istersen iletişime geçebilirsin.</p>
+            </div>
+            <a href="#" class="btn btn-primary">İletişime Geç <i class="fa-solid fa-arrow-right-long right-icon"></i></a>
+          </div>
+        </section>
+      </div>
+      <div class="content" id="about">
+        <section class="container page-hero">
+          <div class="bread-crumb">ANA SAYFA / HAKKIMDA</div>
+          <span class="eyebrow">biraz kendimden</span>
+          <h1>Kodun Arkasında<br/><span class="gradient-text">bir merak var.</span></h1>
+          <p class="lead">Teknolojiyi yalnızca çalışan ürünler yapmak için değil, insanlara daha iyi dijital deneyimler sunmak için kullanıyourm.</p>
+        </section>
+        <section class="container section-sm">
+          <div class="about-layout">
+            <aside class="panel profil-card">
+              <div class="avatar">SN</div>
+              <h3>Senin Adın</h3>
+              <p class="muted">Frontend Developer</p>
+              <div class="tags">
+                <span class="tag">Meraklı</span>
+                <span class="tag">Detay Odaklı</span>
+                <span class="tag">Öğrenmeye Açık</span>
+              </div>
+            </aside>
+            <div class="layout">
+              <span class="eyebrow">yaklaşımım</span>
+              <h2>Basit görünen şeyler, iyi düşünülmüş detaylardan oluşur.</h2>
+              <p class="muted">Benim için iyi bir web sitesi; hızlı, anlaşılır, erişilebilir ve görsel olarak tutarlı olmalı. Tasarımdan koda geçerken her kararın kullanıcıya nasıl yansıdığını düşünürüm.</p>
+              <p class="muted">Bu portföy, Html, Css ve JavaScript ile neler yapılabileceğini göstermek için hazırlanan bir başlangıç şablonudur. Buradaki metinleri kendi deneyimin, hedeflerin ve gerçek çalışmalarınla değiştirerek sana ait hale getirebilirsin.</p>
+              <div class="skills">
+                <span class="skill">Arayüz Geliştirme</span>
+                <span class="skill">Responsive Tasarım</span>
+                <span class="skill">Etkileşim Tasarım</span>
+                <span class="skill">Problem Çözme</span>
+              </div>
+              <h3>Yolculuğum</h3>
+              <div class="time-line">
+                <div class="time-line-item">
+                  <strong>Temelleri Öğrenmek</strong>
+                  <div class="mono muted">HTML · CSS</div>
+                  <p>Semantik yapı, tipografi, yerleşim sistemleri ve erişilebilir arayüzler.</p>
+                </div>
+                <div class="time-line-item">
+                  <strong>Etkileşim Eklemek</strong>
+                  <div class="mono muted">JavaScript</div>
+                  <p>DOM, olaylar, formlar ve kullanıcı etkileşimlerini geliştirmek.</p>
+                </div>
+                <div class="time-line-item">
+                  <strong>Gerçek Projeler Üretmek</strong>
+                  <div class="mono muted">BUILD · TEST · IMPROVE</div>
+                  <p>Öğrendiklerimi projelere dönüştürmek ve sürekli iyileştirmek.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container section">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">teknik beceriler</span>
+              <h2>Temel yapı taşları.</h2>
+            </div>
+            <p>Yetkinlik seviyelerini gerçek deneyimine göre güncelle. Bu alan bir örnek içeriktir.</p>
+          </div>
+          <div class="grid-2">
+            <div class="panel service-card">
+              <h3>Frontend</h3>
+              <p>Semantik Html, modern Css, Flexbox, Grid, Responsive tasarım ve JavaScript etkileşimleri.</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="panel service-card">
+              <h3>Tasarım Yaklaşımı</h3>
+              <p>Görsel hiyerarşi, boşluk sistemi, tutarlı bileşenler, erişilebilirlik ve mobil öncelikli düşünme.</p>
+              <div class="tags">
+                <span class="tag">Uİ</span>
+                <span class="tag">UX Basics</span>
+                <span class="tag">Design System</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="content" id="services">
+        <section class="container page-hero">
+          <div class="bread-crumb">ANA SAYFA / HİZMETLER</div>
+          <span class="eyebrow">neler yapabilirim?</span>
+          <h1>İyi fikirler için<br/><span class="gradient-text">sağlam dijital temel.</h1>
+          <p class="lead">İhtiyaca göre şekillenen, hızlı ve mobil uyumlu web deneyimleri. Hizmet başlıkları örnektir; kendi uzmanlık alanlarına göre düzenleyebilirsin.</p>
+        </section>
+        <section class="container section-sm">
+          <div class="grid-3">
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-regular fa-snowflake"></i></div>
+              <span class="service-number">01</span>
+              <h3>Web Arayüzü Geliştirme</h3>
+              <p>Markanın veya projenin ihtiyaçlarına göre modern, anlaşılır ve tutarlı arayüzler</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </article>
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+              <span class="service-number">02</span>
+              <h3>Responsive Tasarım</h3>
+              <p>Masaüstü, tablet ve telefonlarda rahat kullanabilen esnek sayfa düzenleri.</p>
+              <div class="tags">
+                <span class="tag">Mobile First</span>
+                <span class="tag">Css Grid</span>
+              </div>
+            </article>
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-brands fa-react"></i></div>
+              <span class="service-number">03</span>
+              <h3>JavaScript Etkileşimleri</h3>
+              <p>Filtreler, menüler, formlar, ve sayfayı daha kullanışlı hale getiren küçük özellikler.</p>
+              <div class="tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">DOM</span>
+              </div>
+            </article>
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-brands fa-readme"></i></div>
+              <span class="service-number">04</span>
+              <h3>Landing Page</h3>
+              <p>Ürün veya hizmeti net anlatan, güçlü çağrı alanları bulunan tanıtım sayfaları.</p>
+              <div class="tags">
+                <span class="tag">Conversion</span>
+                <span class="tag">Uİ</span>
+              </div>
+            </article>
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-regular fa-window-maximize"></i></div>
+              <span class="service-number">05</span>
+              <h3>Arayüz İyileştirme</h3>
+              <p>Mevcut sayfalarıın okunabilirliğini, görsel tutarlığını ve Mobil deneyimini geliştirme.</p>
+              <div class="tags">
+                <span class="tag">Denetim</span>
+                <span class="tag">Erişilebilirlik</span>
+              </div>
+            </article>
+            <article class="panel service-card">
+              <div class="service-icon"><i class="fa-regular fa-lightbulb"></i></div>
+              <span class="service-number">06</span>
+              <h3>Prototip ve Fikir Doğrulama</h3>
+              <p>Bir fikri hızlıca etkileşimli web prototipine dönüştürerek test etmeye hazırlama.</p>
+              <div class="tags">
+                <span class="tag">Prototip</span>
+                <span class="tag">Yineleme</span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="container section">
+          <div class="cta-band">
+            <div>
+              <span class="eyebrow">bir proje konuşalım</span>
+              <h2>Neye ihtiyacın var?</h2>
+              <p>Hedefini anlat; uygun bir başlangıç noktası bulalım.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Mesaj Gönder <i class="fa-solid fa-arrow-right-long right-icon"></i></a>
+          </div>
+        </section>
+      </div>
+      <div class="content" id="contact">
+        <section class="container page-hero">
+          <div class="bread-crumb">ANA SAYFA / HİZMETLER</div>
+          <span class="eyebrow">bir merhaba yeter</span>
+          <h1>Bir sonraki fikrini<br/><span class="gradient-text">konuşalım.</h1>
+          <p class="lead">Bir proje, iş birliği veya sadece fikir alışverişi için bana ulaşabilirsin.</p>
+        </section>
+        <section class="container section-sm">
+          <div class="contact-layout">
+            <div class="layout">
+              <h2>İletişimde kalalım</h2>
+              <p class="muted">Kısa bir mesaj bırakabilirsin veya aşağıdaki iletişim kanallarından ulaşabilirsin. Örnek bilgileri kendi bilgilerinle değiştirmeyi unutma.</p>
+              <div class="contact-list">
+                <a href="#" class="contact-item">
+                  <span class="contact-icon"><i class="fa-regular fa-envelope"></i></span>
+                  <span>
+                    <small>E-posta</small>
+                    <b>hello@example.com</b>
+                  </span>
+                </a>
+                <a href="#" class="contact-item">
+                  <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+                  <span>
+                    <small>GitHub</small>
+                    <b>github.com/senin_adın</b>
+                  </span>
+                </a>
+                <a href="#" class="contact-item">
+                  <span class="contact-icon"><i class="fa-brands fa-linkedin"></i></span>
+                  <span>
+                    <small>Linkedin</small>
+                    <b>linkedin.com/in/senin_adın</b>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <form class="panel form-card">
+              <h3>Mesaj Gönder</h3>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Adın</label>
+                  <input type="text" id="name" placeholder="Ad Soyad" minlength="2" required />
+                </div>
+                <div class="field">
+                  <label for="email">E-posta</label>
+                  <input type="email" id="email" placeholder="sen@örnek.com" required />
+                </div>
+                <div class="field">
+                  <label for="subject">Konu</label>
+                  <input type="text" id="subject" placeholder="Proje hakkında" required />
+                </div>
+                <div class="field full">
+                  <label for="message">Mesaj</label>
+                  <textarea id="message" minlength="10" placeholder="Biraz projenden bahset..." required></textarea>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">E-posta Gönder</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">A</span><span>AXUS.</span>
+        </a>
+        <span>&copy;<span data-year></span> axus Portfolio. Tasarım ve kod tutkuyla üretildi.</span>
+        <div class="footer-links">
+          <a href="#">Projeler</a>
+          <a href="#">İletişim</a>
+          <a href="#">Yukarı <i class="fa-regular fa-circle-up"></i></a>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay" onclick="Overlay()"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
